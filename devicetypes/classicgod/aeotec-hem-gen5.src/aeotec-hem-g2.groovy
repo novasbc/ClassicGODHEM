@@ -186,7 +186,7 @@ private createChildDevices() {
 				"Aeotec HEM Gen5 Child Device", 
 				"${device.deviceNetworkId}-c${n+1}", 
 				null,
-				[completedSetup: true, label: "${device.displayName} (Clamp ${n+1})", isComponent: false, componentName: "clamp${n+1}", componentLabel: "Clamp ${n+1}"]
+				[completedSetup: true, label: "${device.displayName} (Clamp ${n+1})", isComponent: false]
 			)
 		}
 	}
